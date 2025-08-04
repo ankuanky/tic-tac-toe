@@ -26,10 +26,10 @@ multi.addEventListener("click", multiPlayerGame);
 undo.addEventListener("click", undoGame);
 restart.addEventListener("click", startNewGame);
 
-const menuSound = new Audio('sounds/menu.aiff');
-const gameOverSound = new Audio('sounds/game_over.aiff');
-const click1 = new Audio('sounds/click1.aiff');
-const click2 = new Audio('sounds/click2.aiff');
+const menuSound = new Audio('sounds/menu.wav');
+const gameOverSound = new Audio('sounds/game_over.wav');
+const click1 = new Audio('sounds/click1.wav');
+const click2 = new Audio('sounds/click2.wav');
 
 tiles.forEach((tile) => tile.addEventListener("click", tileClick));
 
